@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Team Gaurav Patadiya Website</title>
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+</head>
+<body>
+  <div>
+    <h1>Welcome to Gaurav Patadiya's application</h1>
+    <section><br><hr></section>
+    <section>
+        <h1>&nbsp;&nbsp;&nbsp;<u>Event Details</u></h1>
+        {{{body}}}
+    </section>
+</div>
+<section><br><hr></section>
+<div>
+  <h2 style="color:rgb(20, 17, 238)">Add an event</h2>
+    <form action="/event" method="post">
+        <table>
+            <tr>
+                <td>Title:</td>
+                <td><input name="title" type="text" /></td>
+            </tr>
+            <tr>
+                <td>Description:</td>
+                <td><input name="description" type="text" /></td>
+            </tr>
+            <tr>
+                <td>Location:</td>
+                <td><input name="location" type="text" /></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" name="submit" value="Submit" /></td>
+            </tr>
+        </table>
+    </form>
+  </div>
+</body>
+</html>
